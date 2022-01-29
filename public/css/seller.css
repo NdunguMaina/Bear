@@ -1,0 +1,37 @@
+body{
+    width: 100%;
+    display: block;
+    min-height: auto;
+    padding: 0 5vw;
+    position: relative;
+
+}
+
+.logo{  
+  margin: 20px auto 50px;
+      
+}
+
+/* product list */
+.add-product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.add-product-title{
+
+text-transform: capitalize;
+color: #383838;
+
+}
+
+.no-product-image{
+    display: block;
+    margin: auto;
+}
